@@ -1,0 +1,397 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+html, body{
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 500;
+}
+body{
+  background-color: #F5F5F5;
+}
+/*-------------Cabeçalho navegação --------------*/
+header nav {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+}
+#logo{
+  display: flex;
+  align-items: center;
+font-size: 2rem;;
+}
+nav img{
+  width: 2rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+#links{
+  margin-top: 1rem;
+  margin-right: 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#links a{
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+  margin: 1rem;
+}
+#links a:hover{
+  color: #2A7AE4;
+  border-bottom: 2px solid #2A7AE4;
+  filter: brightness(1.5);
+  transition: filter .3s
+}
+
+/*--------------Titulo-----------*/
+main{
+  width:100%;
+}
+#titulo{
+  width: 80%;
+  margin:  5rem auto;
+  display: flex;
+}
+#left {
+  width: 60%;
+  font-size:2.5rem;
+  
+}
+#left h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+#left p{
+  opacity:.7;
+}
+#social-midias a{
+text-align: center;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color:#000;
+  margin: 0 .5rem;
+}
+#social-midias a:hover{
+  color: #2A7AE4;
+  border-bottom: 2px solid #2A7AE4;
+  filter: brightness(1.5);
+  transition: filter .3s
+}
+#social-midias a img{
+  width: 2rem;
+  margin-top: 2rem;
+}
+#right img{
+  width: 25rem;
+  border-radius: 100%;
+  margin-left: 30rem;
+}
+
+/*-------------Sobre mim ------------*/
+#sobre{
+  width: 100%;
+  background-color: #EAF2FD;
+}
+#sobre h2{
+  width: 80%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+#sobre p{
+  font-size: 1.6rem;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding-bottom: 4rem;
+}
+/*---------------Skills---------------*/
+
+#skills {
+  width: 100%;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+#skills h2{
+  margin-bottom: 2rem;
+}
+#cards{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.cards{
+  width: 17rem;
+  height: 12rem;
+  background-color: #fff;
+  width: 22rem;
+  margin: 0 2rem;
+  position: relative;
+}
+.cards img{
+  position: absolute;
+  bottom: 3rem;
+  left: .5rem;
+}
+.cards h6 {
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: .5rem;
+  left:.5rem;
+}
+
+/*-------------Hobbies ------------------*/
+#hobbies{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+#cards-hobbies{
+  display: flex;
+}
+#hobbies h2{
+  margin-bottom: 2rem;
+}
+
+
+#hobbies .cards{
+  width: 15rem;
+  height: 12rem;
+  background-color: #fff;
+  margin: 0 2rem;
+  position: relative;
+}
+#hobbies .cards img{
+  width:3.3rem;
+  position: absolute;
+  bottom: 3rem;
+  left: .5rem;
+}
+#hobbies .cards h6 {
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: .5rem;
+  left:.5rem;
+}
+/*-----------Formação ------------*/
+
+#formacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  width:100%;
+  background-color: #EAF2FD;
+}
+#formacao-cards{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap:5rem;
+}
+.card-formacao img{
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+.card-formacao p{
+  font-size:1.2rem;
+  margin-bottom: 2rem;
+}
+
+/*---------Projetos ----------*/
+
+#projetos{
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+#projetos h2 {
+  font-size:2rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+#projeto-cards{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+#projeto-cards img{
+  width: 60rem;
+}
+.card-exp {
+  display: flex;
+  margin: 0 auto;
+  gap:3rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card-int {
+  font-size: 2rem;
+}
+.card-int h3{
+font-size: 2rem;
+font-weight: 700;
+}
+.card-int p {
+  margin-bottom: 1rem;
+}
+.card-int .white-btn {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border: 1px solid #2A7AE4;
+  color: #2A7AE4;
+  background-color: transparent;
+}
+.card-int .blue-btn {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #2A7AE4;
+}
+.card-int .blue-btn:hover {
+  padding: 1rem 2rem;
+  border: 1px solid #2A7AE4;
+  color: #2A7AE4;
+  background-color: transparent;
+  transition: .3s;
+}
+.card-int .white-btn:hover {
+  padding: 1rem 2rem;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #2A7AE4;
+  transition: .3s;
+}
+#mais-projetos {
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: transparent;
+}
+#mais-projetos a{
+  text-decoration: none;
+  font-size: 2rem;
+  color:#2A7AE4;
+  padding: 2rem 3rem;
+  border: 1px solid #2A7AE4;
+}
+#mais-projetos a:hover{
+  text-decoration: none;
+  font-size: 2rem;
+  color:#fff;
+  padding: 2rem 3rem;
+  border: 1px solid #fff;
+  background-color: #2A7AE4;
+  transition: .3s;
+}
+
+/*--------------Contato ----------*/
+
+#contato{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #EAF2FD;
+  padding-bottom: 2rem;
+}
+#form-div {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin-top: 5rem;
+}
+#form-div img{
+  width: 30rem
+}
+#formulario {
+  margin-left: 3rem;
+}
+#formulario h3 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+#formulario h6{
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+#formulario form{
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+#formulario label{
+  font-weight: 700;
+  margin-top: 1rem;
+  padding-left:.5rem;
+  background-color: #fff;
+  padding-top:.5rem;
+  color:#2A7AE4;
+}
+#formulario input{
+  padding: .5rem;
+  border:none;
+}
+#formulario textarea{
+  margin-top: .5rem;
+  border: none;
+}
+#formulario #btn {
+  width: 10rem;
+  background-color: #2A7AE4;
+  color: #fff;
+  padding:1rem 0;
+  margin-top: 1rem
+}
+#formulario #btn:hover {
+filter: brightness(1.5);
+transition: .3s;
+cursor: pointer;
+}
+
+/*-----------Footer---------*/
+footer {
+  width: 100%;
+  height: 5rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2A7AE4;
+}
+footer a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #2A7AE4;
+  padding-bottom: .2rem;
+  border-bottom: 2px solid #2A7AE4;
+}
+
